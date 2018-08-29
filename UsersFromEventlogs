@@ -1,6 +1,6 @@
 $Serverlist = Get-Content 'E:\scripts\AccountAudit\Last30Days\serverlist.txt'
-$Log = '\\eu2netvalutil01.phx.gbl\E$\scripts\AccountAudit\Last30Days\log.txt'
-$LogPath = '\\eu2netvalutil01.phx.gbl\E$\scripts\AccountAudit\Last30Days\'
+$Log = 'E$\scripts\AccountAudit\Last30Days\log.txt'
+$LogPath = 'E$\scripts\AccountAudit\Last30Days\'
 Clear-Content $Log
 #$debug=$true 
 
